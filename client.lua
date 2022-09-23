@@ -1,0 +1,7 @@
+AddEventHandler('playerSpawned', function(spawn)
+    local player = GetPlayerPed(-1)
+    local pistol = GetHashKey("weapon_pistol")
+    local knife = GetHashKey("weapon_knife")
+    GiveWeaponToPed(player, pistol, 100, true)
+    GiveWeaponToPed(player, knife, 100, true)
+end)

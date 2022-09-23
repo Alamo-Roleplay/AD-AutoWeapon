@@ -1,2 +1,3 @@
 # AD-AutoWeapon
- Gives all players a pistol on spawn.
+
+Gives all players on spawn a pistol and a knife.
